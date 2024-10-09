@@ -80,14 +80,13 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
        <p style="display: inline-block; margin-right:10px;"> Register Here </p> <a href="./signUpForm.php" target="_blank" style="text-decoration: none;">Sign Up</a>
     </div>
 
-      <script>
+<script>
         window.onpageshow = function(event) {
             if (event.persisted) {
                 window.location.reload();
             }
         };
-
-    </script>  
+</script>  
 </body>
 </html>
 
